@@ -66,3 +66,16 @@ p {
 .project-link:hover {
   text-decoration: underline;
 }
+
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">Bobby</a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#lab">Portfolio Lab</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
