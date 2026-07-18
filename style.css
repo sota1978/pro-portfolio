@@ -148,3 +148,28 @@ p {
 .contact-link:hover {
   text-decoration: underline;
 }
+
+
+/* Smooth fade-in for all sections */
+section {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Button hover upgrade */
+.btn:hover {
+  background: #008FCC;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.btn-outline:hover {
+  background: #FFF;
+  color: #000;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
