@@ -113,6 +113,35 @@ p {
 .contact-link {
   color: #00AEEF;
   text-decoration: none;
+
+  .lab {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.lab h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.lab-card {
+  background: #1A1A1A;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.lab-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lab-card p {
+  color: #CCCCCC;
+}
+
   font-weight: bold;
 }
 
